@@ -1,5 +1,7 @@
 import SectionHeading from "../SectionHeading"
 
+export const projectsData = []
+
 export default function Projects() {
   return (
     <div id="projects" className="mx-auto mt-56 max-w-7xl px-4 py-16">

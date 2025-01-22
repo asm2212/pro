@@ -122,3 +122,4 @@
 //     </div>
 //   );
 // }
+export default function ProjectContent() {}
