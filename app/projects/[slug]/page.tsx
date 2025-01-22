@@ -3,7 +3,7 @@
 // import { Footer } from '@/components/footer';
 
 // export async function generateStaticParams() {
-//   return projectsData.map((project) => ({
+//   return projectsData.map((project: any) => ({
 //     slug: project.slug,
 //   }));
 // }
@@ -13,7 +13,7 @@
 // }: {
 //   params: { slug: string };
 // }) {
-//   const project = projectsData.find((p) => p.slug === slug);
+//   const project = projectsData.find((p: any) => p.slug === slug);
 
 //   if (!project) {
 //     return (
