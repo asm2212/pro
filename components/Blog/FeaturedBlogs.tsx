@@ -1,7 +1,5 @@
 import React from 'react';
 import SectionHeading from '../SectionHeading';
-import BlogCard from './BlogCard';
-import { posts } from '#site/content';
 // console.log(posts)
 
 export default function FeaturedBlogs() {
