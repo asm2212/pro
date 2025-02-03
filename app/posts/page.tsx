@@ -13,10 +13,7 @@ export default function Posts() {
           Thoughts, ideas, and insights about web development, app development, and
           Devops.
         </h2>
-        <div>
-          <p>Comming Soon</p>
-        </div>
-        {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post, index) => (
             <Link key={index} href={post.slug} className="block">
               <div className="relative aspect-square overflow-hidden rounded-xl bg-slate-900 shadow-lg transition-transform duration-300 hover:scale-105">
@@ -60,7 +57,7 @@ export default function Posts() {
               </div>
             </Link>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

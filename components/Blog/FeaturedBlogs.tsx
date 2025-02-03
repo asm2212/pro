@@ -1,5 +1,7 @@
 import React from 'react';
 import SectionHeading from '../SectionHeading';
+import BlogCard from './BlogCard';
+import { posts } from '#site/content';
 // console.log(posts)
 
 export default function FeaturedBlogs() {
@@ -9,10 +11,7 @@ export default function FeaturedBlogs() {
         heading="Blog"
         subheading="Documenting all of my learnings and teachings in technology."
       />
-      <div>
-        <p>Comming soon</p>
-       </div>
-      {/* <div className="rounded-2xllg:mt-40 mt-20">
+      <div className="rounded-2xllg:mt-40 mt-20">
         <div className="mt-8 overflow-x-auto rounded-2xl pb-4">
           <div className="flex space-x-6 px-4">
             {posts.map((post, idx) => (
@@ -29,7 +28,7 @@ export default function FeaturedBlogs() {
             ))}
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
