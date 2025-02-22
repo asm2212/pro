@@ -28,7 +28,6 @@ export default function Menu() {
     { name: 'Home', href: '/', isActive: true },
     { name: 'About', href: '/#about', isActive: false },
     { name: 'Projects', href: '/#projects', isActive: false },
-    { name: 'Blog', href: '/posts', isActive: false },
   ]);
 
   const setActiveNavItem = (selectedName: string) => {

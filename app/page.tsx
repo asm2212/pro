@@ -5,7 +5,6 @@ import AboutMe from '@/components/about-me/AboutMe';
 import SecondQuote from '@/components/SecondQuote/SecondQuote';
 import TheEnd from '@/components/TheEnd';
 import { Footer } from '@/components/footer';
-import FeaturedBlogs from '@/components/Blog/FeaturedBlogs';
 import { unstable_noStore as noStore } from 'next/cache';
 import Projects from '@/components/Projects/Projects';
 
@@ -23,7 +22,6 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <SecondQuote />
-      <FeaturedBlogs />
       <TheEnd />
       <Footer />
     </main>
