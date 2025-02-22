@@ -11,7 +11,7 @@ export default function HeroCTA() {
         </div>
         <div className="hero-gradient-text text-center text-[10vw] font-bold leading-[11vw] lg:text-left lg:text-[4vw] lg:leading-[5vw] xl:text-[4.5vw] xl:leading-tight">
           Full-Stack Software 
-          Enginner
+          Engineer
         </div>
 
         <div className="grid grid-cols-2 justify-center gap-4 lg:justify-start">
